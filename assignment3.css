@@ -1,0 +1,74 @@
+.parent{
+    height: 100vh;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    height: 10vh;
+    display: flex;
+    background-color: lightgrey;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+    width: 10rem;
+}
+
+input[type="search"]{
+    outline: none;
+    height: 2rem;
+    width: 15rem;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.header-icons{
+    display: flex;
+    gap: 3rem;
+    font-size: 2rem;
+    color: white;
+}
+
+i:hover{
+    color: orange;
+}
+
+main{
+    height: 80vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+footer{
+    background-color: lightgrey;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

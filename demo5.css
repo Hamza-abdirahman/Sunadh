@@ -1,0 +1,35 @@
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+}
+#id1{
+    background-color: #FF0000;
+}
+#id2{
+    background-color: #00FF00;
+    position: relative;
+    left: 30px;
+    bottom: 80px;
+}
+#id3{
+    background-color: #0000FF;
+    position: relative;
+    left: 50px;
+    bottom: 160px;
+}
+#id4{
+    background-color: #8a2be2;
+    position: relative;
+    left: 70px;
+    bottom: 240px;
+}
+#id5{
+    background-color: #f25e20;
+    position: relative;
+    left: 90px;
+    bottom: 320px;   
+}

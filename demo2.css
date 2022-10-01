@@ -1,0 +1,56 @@
+/*
+    Element Selector
+*/
+p{
+    border: 1px solid red;
+    width: 20%;
+    display: inline-block;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/*
+    ID Selector
+*/
+#sunadh1{
+   background-color: salmon; 
+   color: white;
+}
+
+
+#sundadh2{
+    background-color: aqua;
+    color: white;
+}
+
+
+#sunadh3{
+    background-color: pink;
+    color: white;
+}
+
+
+#sunadh4{
+    background-color: violet;
+    color: azure;
+}
+
+#sunadh5{
+    background-color: brown;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

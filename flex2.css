@@ -1,0 +1,26 @@
+.parent{
+    display: flex;
+    gap: 10px;
+    /* justify-content: space-evenly; */
+    height: 100vh;
+    align-items: flex-end;
+}
+
+.common{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.home{
+    background-color: red;
+}
+
+.about{
+    background-color: green;
+}
+
+.contact{
+    background-color: blue;
+}

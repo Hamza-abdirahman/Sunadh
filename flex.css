@@ -1,0 +1,48 @@
+.common{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+.class_one{
+    background-color: red;
+}
+
+.class_two{
+    background-color: green;
+}
+
+.class_three{
+    background-color: blue;
+}
+
+.class_four{
+    background-color: yellow;
+}
+
+.class_five{
+    background-color: brown;
+}
+
+.class_six{
+    background-color: aqua;
+}
+
+.class_seven{
+    background-color: burlywood;
+}
+
+.class_eight{
+    background-color: cadetblue;
+}
+
+.class_nine{
+    background-color: chartreuse;
+}
+
+.parent{
+    display: flex;
+    gap: 10px;
+    flex-direction: column-reverse;
+}
+
+

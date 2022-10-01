@@ -1,0 +1,106 @@
+.class1{
+    border: 1px solid red;
+    
+}
+
+.class1 > div {
+    border: 1px solid gray;
+    width: 20%;
+    display: inline-block;
+}
+
+.class1>div:nth-child(4){
+    background-color: yellow;
+}
+
+.class1>div:nth-child(2){
+    background-color: aqua;
+}
+
+.class1>div:nth-child(2)>h1{
+    color: white;
+}
+
+.class1>div:nth-child(odd)>h1{
+    color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .class1{
+
+}
+
+.class1 > div{
+    border: 1px solid gray;
+    width: 20%;
+    display: inline-block;
+    padding: 20px;
+    text-align: justify;
+    margin: 10px;
+}
+
+
+.class1 > div:nth-child(1){
+    background: linear-gradient(45deg,red,green,red);
+    color: white;
+    font-size: 20px;
+    font-family: Comic Sans MS;
+    border-radius: 10px;
+}
+
+
+.class1 > div:nth-child(4){
+    background-color: yellow;
+}
+
+.class1 > div:nth-child(3) > h1{
+    color: red;
+} */
+
+
+
+
+
+
+
+

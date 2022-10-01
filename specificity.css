@@ -1,0 +1,27 @@
+/* div{
+    color: green;
+}
+
+
+
+
+*{
+    color: red;
+} */
+
+
+
+
+.class1{
+    color: red !important;
+}
+
+div{
+    color: green;
+}
+
+
+#id1{
+    color: blue;
+}
+

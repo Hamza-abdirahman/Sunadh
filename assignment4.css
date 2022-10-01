@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+aside{
+    width: 20vh;
+    background-color: antiquewhite;
+    height: 100vh;
+    text-align: center;
+    padding: 10px;
+    float: left;
+}
+/* i{
+    color: white;
+    display: inline-block;
+    font-size: 100px;
+} */
+a{
+    display: block;
+    margin-top: 25px;
+    text-decoration: none;
+    color: red;
+    background-color: yellow;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 10px;
+}

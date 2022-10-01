@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Psudo Elements</title>
+        <style>
+            .required::before{
+                content: "";
+                display: block;
+                width: 10px;
+                height: 10px;
+                background-color: red;
+            }
+            .required::after{
+                content: "";
+                display: block;
+                width: 10px;
+                height: 10px;
+                background-color: green;
+            }
+
+            [data-tooltip]:hover::after{
+                content: attr(data-tooltip);
+                position: absolute;
+                top: 100px;
+                left: 20px;
+                background-color: gray;
+                color: white;
+                padding: 10px;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <label class="required">User Name</label>
+        <input type="text">
+        <br>
+        <button data-tooltip="Hello">Click Me</button>
+    </body>
+</html>

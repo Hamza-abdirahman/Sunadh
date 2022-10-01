@@ -1,0 +1,50 @@
+table{
+    width: 100%;
+    text-align: center;
+}
+
+table,th,td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+th{
+    height: 50px;
+    vertical-align: middle;
+    background-color: gainsboro;
+    color: salmon;
+    font-weight: bold;
+}
+
+tr:nth-child(odd){
+    background-color: aqua;
+}
+tr:nth-child(even){
+    background-color: chocolate;   
+}
+
+tr:hover{
+    background-color: #fff;    
+}
+
+td{
+    padding: 10px;
+}
+
+img{
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+i{
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+
